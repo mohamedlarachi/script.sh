@@ -27,7 +27,16 @@ else
 echo "THIS CHOICE DOESN'T EXIST!"
 fi
 elif [ $room_number -eq 2 ]
-then
+then 
+echo ""
+echo "╔═════╣ n ╠═════╗"
+echo "║               ║"
+echo "╩       ▲       ╩"
+echo "w     ◄ ☻ ►     e"
+echo "╦               ╦"
+echo "║               ║"
+echo "╚═══════════════╝"
+echo ""
 echo "There are 3 doors in your room: (n)orth, (w)est, (e)ast, where do you want to go ?"
 read choice
 if [ "$choice" = "n" ]
